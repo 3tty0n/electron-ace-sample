@@ -1,0 +1,14 @@
+{
+  "name": "electron-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "watchify -v -t babelify javascripts/app.js -o javascripts/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ace-min-noconflict": "^1.1.9"
+  }
+}
