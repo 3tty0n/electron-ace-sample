@@ -4,11 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "watchify -v -t babelify javascripts/app.js -o javascripts/bundle.js"
+    "start": "electron ."
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ace-min-noconflict": "^1.1.9"
+    "ace-min-noconflict": "^1.1.9",
+    "electron-packager": "^6.1.0",
+    "electron": "~1.6.2"
   }
 }
