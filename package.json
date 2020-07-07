@@ -11,6 +11,6 @@
   "dependencies": {
     "ace-min-noconflict": "^1.1.9",
     "electron-packager": "^6.1.0",
-    "electron": "~1.6.2"
+    "electron": "~9.1.0"
   }
 }
